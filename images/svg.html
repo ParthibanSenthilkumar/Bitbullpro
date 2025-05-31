@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dotted Line Animation</title>
+  <style>
+    .dotted-line {
+      stroke: rgb(118, 118, 117);
+      stroke-width: 2px;
+      stroke-dasharray: 1, 6;  /* tiny dot, gap of 6px */
+      stroke-dashoffset: 100;
+      stroke-linecap: round;
+      fill: none;
+      animation: moveDots 2s linear infinite;
+      opacity: 0.7;
+    }
+    .svg_group{
+        position: relative;
+    }
+
+    @keyframes moveDots {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <svg width="5px" height="393px">
+    <path d="M3,2 L3,398" class="dotted-line" />
+  </svg>
+  <div class="svg_group">
+  <svg width="150px" height="200px">
+    <path d="M0,100 L200,100" class="dotted-line" />
+  </svg>
+</div>
+
+</body>
+</html>
+
