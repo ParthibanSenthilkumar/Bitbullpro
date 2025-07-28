@@ -1773,6 +1773,9 @@ header .navbar-toggler{
     .plan_left{
         margin: 20px 0px 0px;
     }
+    .plan_left .plan_but{
+       padding: 7px 7px 7px 8px;
+    }
     .plan_left .plan_but i{
 	font-size: 10px;
 	margin-left: 4px;
@@ -1872,10 +1875,7 @@ header .navbar-toggler{
         font-size: 123px !important;
    }
     .safety_section .fade_text {
-        font-size: 68px !important;
-    }
-    .safety_section .fade_text {
-        font-size: 89px !important;
+        font-size: 67px !important;
     }
     .cert_group{
         grid-template-columns: 1fr;
@@ -1892,9 +1892,6 @@ header .navbar-toggler{
     }
     .cert_info h3{
         text-align: center;
-    }
-    .trans_bg .fade_text{
-        font-size: 45px;
     }
     .trans_head h2 {
         font-size: 42px;
@@ -1946,7 +1943,7 @@ header .navbar-toggler{
     }
 
     .stat_section .head .fade_text {
-        font-size: 71px;
+        font-size: 63px;
         top: -29px;
     }
     .video_section,.plan_section,.referal_section,.safety_section,.Security_section,.certifi_secction,.pay_section,.referal_section{
@@ -1971,11 +1968,6 @@ header .navbar-toggler{
         font-size: 80px;
         top: -17px;
         left: -2px;
-    }
-    .plan_section .head .fade_text {
-        font-size: 156px !important;
-        text-align: center;
-        top: -7px;
     }
     .stat_section{
         background-size: cover;
@@ -2037,8 +2029,11 @@ header .navbar-toggler{
   .trans_bg .head{
       margin: -51px 0px 0px;
   }
-	.pay_item {
-        max-width: 141px;
-    }
-
+.pay_item {
+	margin: auto !important;
+	max-width: 165px;
+}
+  .pay_section .owl-theme .owl-dots .owl-dot span{
+      display: none;
+  }
 }
