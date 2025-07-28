@@ -1230,6 +1230,7 @@ header .navbar-toggler{
 
 .pay_section{
     padding: 50px 0px 0px;
+    overflow: hidden !important;
 }
 .payments{
     display: flex;
