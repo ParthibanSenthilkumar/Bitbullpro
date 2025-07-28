@@ -1381,10 +1381,10 @@ header .navbar-toggler{
     }
     .banner_img {
         position: relative;
-        top: 69px;
-        left: -32px;
-        max-width: 481px;
-        height: unset;
+        top: 88px;
+        left: -31px;
+        height: 586px;
+        width: fit-content;
     }
     .banner_section{
         background-size: 100% 95%;
@@ -1459,6 +1459,7 @@ header .navbar-toggler{
         width: 700px;
     }
     .pay_item {
+        margin: 0px 10px !important;
         max-width: 164px;
     }
     .pay_icon {
