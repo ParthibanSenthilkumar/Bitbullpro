@@ -1456,7 +1456,7 @@ header .navbar-toggler{
         margin: 0px 5px !important;
     } 
     .pay_section{
-	overflow: hidden;
+	overflow: hidden !important;
     }
     .payment_group {
         width: 700px;
