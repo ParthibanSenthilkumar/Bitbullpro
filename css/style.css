@@ -1454,6 +1454,9 @@ header .navbar-toggler{
         max-width: 165px;
         width: 100%;
         margin: 0px 5px !important;
+    } 
+    .pay_section{
+	overflow: hidden;
     }
     .payment_group {
         width: 700px;
