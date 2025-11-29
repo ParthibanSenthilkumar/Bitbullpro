@@ -6,6 +6,9 @@
 body{
     scroll-behavior: smooth;
     font-family: 'Degular';
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
 }   
 body a{
     text-decoration:none;
@@ -36,11 +39,7 @@ body p{
     --primary_color:#1f1f1f;
     --graident_text:linear-gradient(to right, #f6851b, #fea82e);
 }
-.boby{
-    max-width: 1140px;
-    width: 100%;
-    margin: auto;
-}
+
 @media (max-width:2049){
     body{
         max-width: 100% !important;
