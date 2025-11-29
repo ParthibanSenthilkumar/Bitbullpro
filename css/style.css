@@ -6,7 +6,7 @@
 body{
     scroll-behavior: smooth;
     font-family: 'Degular';
-    max-width: 1140px;
+    max-width: 1440px;
     width: 100%;
     margin: auto;
 }   
@@ -40,12 +40,7 @@ body p{
     --graident_text:linear-gradient(to right, #f6851b, #fea82e);
 }
 
-@media (max-width:2049){
-    body{
-        max-width: 100% !important;
-        width: 100%;
-    }
-}
+
 
 
 
@@ -1384,6 +1379,12 @@ header .navbar-toggler{
 }
 /*****Responsive  part start*****/
 
+@media (max-width:2049px){
+    body{
+        max-width: 100% !important;
+        width: 100%;
+    }
+}
 @media  (max-width:1199px){
 
     .nav-link{
